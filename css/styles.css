@@ -5,7 +5,8 @@
   text-decoration: none;
 }
 /* header */
-.meny-item {
+/* navigation */
+.menu-item {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -13,15 +14,12 @@
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-.phone-menu-item {
-  font-family: "Roboto" sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
+.menu-item:hover,
+:focus {
+  color: #404bbf;
 }
+/* address */
+.phone-menu-item,
 .mail-menu-item {
   font-family: "Roboto" sans-serif;
   font-style: normal;
@@ -30,4 +28,22 @@
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+}
+.mail-menu-item:focus,
+:hover {
+  color: #404bbf;
+}
+.phone-menu-item:focus,
+:hover {
+  color: #404bbf;
+}
+/* hero section */
+.hero-name {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #ffffff;
 }
