@@ -4,10 +4,22 @@
 .link {
   text-decoration: none;
 }
+.body {
+  font-family: "Roboto", sans-serif;
+}
 /* header */
 /* navigation */
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.16;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
 .menu-item {
-  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -21,7 +33,6 @@
 /* address */
 .phone-menu-item,
 .mail-menu-item {
-  font-family: "Roboto" sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -39,11 +50,76 @@
 }
 /* hero section */
 .hero-name {
-  font-family: "Roboto";
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
   color: #ffffff;
+}
+.modal-button {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  background: #4d5ae5;
+}
+.modal-button {
+  cursor: pointer;
+}
+.modal-button:hover,
+:focus {
+  background: #404bbf;
+}
+/* components */
+/* components */
+/* components */
+.subtitle-two {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+.subtitle-three {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+/* footer */
+.description-footer {
+  color: #f4f4fd;
+}
+/* portfolio page */
+.menu-button-item {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  background: #404bbf;
+  cursor: pointer;
+}
+.menu-button-item:focus,
+:hover {
+  color: #4d5ae5;
+  background: #f4f4fd;
 }
