@@ -73,6 +73,7 @@
 }
 .modal-button:hover,
 :focus {
+  color: #ffffff;
   background: #404bbf;
 }
 /* components */
