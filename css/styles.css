@@ -1,15 +1,125 @@
 :root{
-  --primary-font: "Roboto", sans-serif
-  --secondary-font:  "Raleway", sans-serif
+  --primary-font: "Roboto", sans-serif;
+  --primary-color: #2E2F42;
+  --accent-color: #404BBF;
+  --background-color: #E5E5E5;
+
 }
 body {
-  font-family:var(--primary-font)
-}
-  .list-style:{none;} 
+  font-family:var(--primary-font);
+  color:var(--primary-color);
+  background-color:var(--background-color);
+  }
+
+ .list{list-style: none;}
 
 .link {
   text-decoration: none;
 }
 
 /* header */
-/* navigation */
+.logo{
+  font-family: 'Raleway', sans-serif;
+ font-weight: 800;
+font-size: 18px;
+line-height: 1,16;
+display: flex;
+align-items: center;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+}
+.menu-item{
+font-weight: 500;
+font-size: 16px;
+line-height:1,5;
+letter-spacing: 0.02em;
+color:#2E2F42;
+}
+.menu-item:hover ,
+.menu-item:focus{
+color: var(--accent-color); 
+}
+/* address */
+.address-menu-item{
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #434455;
+}
+.address-menu-item:hover ,
+.address-menu-item:focus{
+  color: var(--accent-color);
+}
+/* main */
+/* hero */
+.hero-name{
+font-weight: 700;
+font-size: 56px;
+line-height:1.07;
+text-align: center;
+letter-spacing: 0.02em;
+color: #FFFFFF;
+}
+.modal-button{
+font-weight: 500;
+font-size: 16px;
+line-height:1.5;
+display: flex;
+align-items: center;
+letter-spacing: 0.04em;
+color: #FFFFFF;
+background: #4D5AE5;
+cursor: pointer;
+}
+.modal-button:hover,
+.modal-button:focus{
+background-color:  #404BBF;
+}
+/* components */
+.subtitle-second{
+ font-weight: 700;
+font-size: 36px;
+line-height:1.11;
+text-align: center;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+}
+.subtitle-three{
+font-weight: 500;
+font-size: 20px;
+line-height:1.2;
+letter-spacing: 0.02em;
+}
+.description{
+ font-weight: 400;
+font-size: 16px;
+line-height:1.5;
+letter-spacing: 0.02em;
+color: #434455;
+}
+/* page portfolio */
+.menu-button-item{
+font-weight: 500;
+font-size: 16px;
+line-height:1.5;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.04em;
+color: #FFFFFF;
+background: #404BBF;
+cursor: pointer;
+}
+.menu-button-item:hover,
+.menu-button-item:focus{
+  color: #4D5AE5;
+  background: #F4F4FD;
+}
+.subtitle-two{
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+letter-spacing: 0.02em;
+}
