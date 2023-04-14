@@ -35,9 +35,10 @@ color:var(--logo-color-part-one)
 .logo-name-two-part{
   color:var(--logo-color-part-two-top)
 }
+.list-menu{font-weight:500;
+}
 .menu-item{
 font-style:normal
-font-weight:500;
 font-size:16 px;
 line-height:1.5;
 letter-spacing: 0.02em;
@@ -48,9 +49,11 @@ color:#2E2F42;
 color: var(--accent-color); 
 }
 /* address */
+.address{
+  font-style: normal
+}
 
 .address-menu-item{
-font-style: normal;
 font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
