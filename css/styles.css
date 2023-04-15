@@ -7,6 +7,8 @@
   --logo-color-part-two-top: #2E2F42;
   --logo-color-part-two-down:#F4F4FD;
   --background-color-hero-section: #2E2F42;
+  --buttom-portfolio-text-color:#4d5ae5 ;
+  --buttom-portfolio-background-color:#F4F4FD;
 }
 body {
   font-family:var(--primary-font);
@@ -35,9 +37,8 @@ color:var(--logo-color-part-one)
 .logo-name-two-part{
   color:var(--logo-color-part-two-top)
 }
-.list-menu{font-weight:500;
-}
 .menu-item{
+font-weight:500;
 font-style:normal
 font-size:16 px;
 line-height:1.5;
@@ -78,6 +79,7 @@ letter-spacing: 0.02em;
 color: #FFFFFF;
 }
 .modal-button{
+font-family:var(--primary-font)
 font-weight: 500;
 font-size: 16px;
 line-height:1.5;
@@ -130,7 +132,9 @@ color: #434455;
 }
 .our-team-menu-item {background-color:  #FFFFFF;}
 /* page portfolio */
+/* main  */
 .menu-button-item{
+font-family:var(--primary-font);
 font-weight: 500;
 font-size: 16px;
 line-height:1.5;
@@ -138,14 +142,14 @@ display: flex;
 align-items: center;
 text-align: center;
 letter-spacing: 0.04em;
-color: #FFFFFF;
-background: #404BBF;
 cursor: pointer;
+color: var(--buttom-portfolio-text-color);
+background-color: var(--buttom-portfolio-background-color);
 }
 .menu-button-item:hover,
 .menu-button-item:focus{
-  color: #4D5AE5;
-  background: #F4F4FD;
+  color: #FFFFFF;
+  background: #404BBF;
 }
 .subtitle-two{
 font-weight: 500;
