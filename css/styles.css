@@ -39,11 +39,11 @@ color:var(--logo-color-part-one)
 }
 .menu-item{
 font-weight:500;
-font-style:normal
-font-size:16 px;
+font-style:normal;
+font-size:16px;
 line-height:1.5;
 letter-spacing: 0.02em;
-color:#2E2F42;
+color:var(--background-color-hero-section);
 }
 .menu-item:hover ,
 .menu-item:focus{
@@ -59,7 +59,7 @@ font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
-color: #434455;
+color: var(--primary-color);
 }
 .address-menu-item:hover ,
 .address-menu-item:focus{
@@ -76,23 +76,21 @@ font-size: 56px;
 line-height:1.07;
 text-align: center;
 letter-spacing: 0.02em;
-color: #FFFFFF;
+color: var(--background-color-site);
 }
 .modal-button{
 font-family:var(--primary-font);
 font-weight: 500;
 font-size: 16px;
 line-height:1.5;
-display: flex;
-align-items: center;
 letter-spacing: 0.04em;
-color: #FFFFFF;
-background: #4D5AE5;
+color: var(--background-color-site);
+background-color: var(--buttom-portfolio-text-color);
 cursor: pointer;
-}
+} 
 .modal-button:hover,
 .modal-button:focus{
-background-color:  #404BBF;
+background-color: var(--accent-color);
 }
 /* components */
 .subtitle-second{
@@ -102,35 +100,35 @@ line-height:1.11;
 text-align: center;
 letter-spacing: 0.02em;
 text-transform: capitalize;
-color: #2E2F42;
+color: var(--logo-color-part-two-top);
 }
 .subtitle-three{
 font-weight: 500;
 font-size: 20px;
 line-height:1.2;
 letter-spacing: 0.02em;
-color:  #2E2F42;
+color:var(--logo-color-part-two-top);
 }
 .description{
  font-weight: 400;
 font-size: 16px;
 line-height:1.5;
 letter-spacing: 0.02em;
-color: #434455;
+color: var(--primary-color);
 }
 /* section four */
 .our-team{
-  background-color: #F4F4FD;
+  background-color: var(--logo-color-part-two-down);
 }
 /* footer */
 .footer{ 
-  background-color:  #2E2F42;
+  background-color: var(--background-color-hero-section);
 }
-.description-footer {color:#F4F4FD;}
+.description-footer {color:var(--logo-color-part-two-down);}
 .logo-name-two-part-down{
   color: var(--logo-color-part-two-down);
 }
-.our-team-menu-item {background-color:  #FFFFFF;}
+.our-team-menu-item {background-color:var(--background-color-site);}
 /* page portfolio */
 /* main  */
 .menu-button-item{
@@ -138,8 +136,6 @@ font-family:var(--primary-font);
 font-weight: 500;
 font-size: 16px;
 line-height:1.5;
-display: flex;
-align-items: center;
 text-align: center;
 letter-spacing: 0.04em;
 cursor: pointer;
@@ -148,8 +144,8 @@ background-color: var(--buttom-portfolio-background-color);
 }
 .menu-button-item:hover,
 .menu-button-item:focus{
-  color: #FFFFFF;
-  background: #404BBF;
+  color: var(--background-color-site);
+  background:var(--accent-color);
 }
 .subtitle-two{
 font-weight: 500;
